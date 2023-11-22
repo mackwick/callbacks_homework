@@ -26,7 +26,7 @@
 
 // Separation of concerns - Keep the things that do different things in different places.
 
-// ANSWERS Re: Programming Principles //********************************** */
+// *** ANSWERS Re: Programming Principles //********************************** */
 
 // Write a ~1 sentence summary for each one 
     // (see above)
@@ -40,6 +40,7 @@
 //********************************** */
 // COMMENTING CODE
 //********************************** */
+
 //Comment each line of this code and describe what it is doing. Feel free to run this code and add console.logs to help you figure it out:
 
 //creating a function with parameter "l" for limit
@@ -61,7 +62,7 @@ const f = l => {
 //console.log the result of running this function with a limit of 55
   console.log(f(55))
 
-// ANSWERS Re: Commenting Code //********************************** */
+// *** ANSWERS Re: Commenting Code //********************************** */
 
 //In keeping with one of our programming principals (write code for the maintainer): What would have been a more semantic name for this function (hint: this is a problem we had for either lab or hw and is considered a classic ) - are there any other variable names or things that would make this code easier to read and understand?
     // Fibonacci
