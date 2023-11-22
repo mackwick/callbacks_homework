@@ -135,4 +135,33 @@ console.log(calculate(3, 3, subtract))
 console.log(calculate(3, 3, multiply))
 console.log(calculate(3, 3, divide))
 
-// Function Definition Placement ************************* */
+// *** Function Definition Placement ************************* */
+
+//Clean up this code, so that it works and has function definitions in the correct place
+
+const bar = () => {
+    console.log('bar here');
+}
+
+const foo = () => {
+    console.log('foo here');
+}
+
+bar();
+foo();
+
+// *** Error Reading ************************* */
+
+//What is meant by the error(s) this produces?
+
+// foo();
+
+// const foo =()=>{
+//     console.log('hi');
+// }
+
+    //The equal sign is missing 
+    //If add in the equal sign - I'm trying to call "foo" before it's been established (since it's an arrow function, it doesn't get hoisted)
+
+
+
