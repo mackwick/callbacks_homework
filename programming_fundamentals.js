@@ -26,9 +26,7 @@
 
 // Separation of concerns - Keep the things that do different things in different places.
 
-//********************************** */
-// ANSWER
-//********************************** */
+// ANSWERS Re: Programming Principles //********************************** */
 
 // Write a ~1 sentence summary for each one 
     // (see above)
@@ -52,12 +50,24 @@ const f = l => {
     while (c <= l) {
 //changing the value of the next number (which is 0) to the current number plus the previous number
       n = c + p;
-//changing the value of the previous number to the current number and the value of the 
+//changing the value of the previous number to the current number and the value of the current number to the value of the next one
       [c, p] = [n, c]
-//
+//if the current number is even, add it to thte even sum
       es += (c % 2 === 0) ? c : 0
     }
+//return the final even sum
     return es
   }
-  
+//console.log the result of running this function with a limit of 55
   console.log(f(55))
+
+// ANSWERS Re: Commenting Code //********************************** */
+
+//In keeping with one of our programming principals (write code for the maintainer): What would have been a more semantic name for this function (hint: this is a problem we had for either lab or hw and is considered a classic ) - are there any other variable names or things that would make this code easier to read and understand?
+    // Fibonacci
+
+//If you started a new job and your project was to expand the functionality of this function by allowing a second argument and then based on that second argument, returning the sum of even or odd numbers, which code would you rather start working with f or f2?
+     // omg f2
+
+//Finally, the 'shorter' code style doesn't use semi-colons, except for the fourth line. Remove this semi-colon! Run the code, is this semi-colon necessary?
+    // It is. I get an error "Invalid left-hand side in assignment" for that line
